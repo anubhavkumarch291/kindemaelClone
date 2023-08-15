@@ -1,0 +1,43 @@
+#img{
+    height: 40px;
+    width: 200px;
+    margin: auto;
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login{
+    width: 25%;
+    height: 400px;
+    margin: auto;
+    border: 1px solid red;
+    background: linear-gradient(blue,purple);
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h1+div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+input[type="email"],input[type="password"]{
+    height: 30px;
+    width: 280px;
+    margin: auto;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+input[type='submit']{
+width: 100px;
+    height: 30px;
+    margin-left: 35%;
+    border-radius: 10px;
+    border-style: none;
+}
