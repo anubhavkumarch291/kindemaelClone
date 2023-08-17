@@ -3,33 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="sign.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
-       <title>Document</title>
+       <title>signup page</title>
 </head>
 <body>
     <div id="container">
+        
+        <div id="col-md-2">
+            <h1>Welcome Back!</h1>
+            <p>To keep connected with us please login with your personal info</p>
+            <div id="btn"> <input type="submit" value="Sign in" id="btn1" onclick="signIn()"></div>
+        </div>
         <div id="col-md-1">
-            <h1>Sign in</h1>
+            <h1>Create Account</h1>
             <div id="links">
             <a href="#"><i class="fa-brands fa-facebook fa-2xl" style="color: #8b98a9;"></i></a>
             <a href="#"><i class="fa-brands fa-instagram fa-2xl" style="color: #8b98a9;"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin fa-2xl" style="color: #8b98a9;"></i></a>
             </div>
-            <p>or use your account</p>
+            <p>or use your email for registration</p><form action="#">
             <div id="input">
+                <input type="text" placeholder="Name" id="name">
                 <input type="email" placeholder="Email" id="email">
                 <input type="password" placeholder="Password" id="password">
-                <a href="#">Forget Your Password?</a><div id="btn"> <input type="submit" value="Sign in"></div>
-            </div>
-        </div>
-        <div id="col-md-2">
-            <h1>Hello, Friend!</h1>
-            <p>Enter your personal details and start journey with us</p>
-            <div id="btn"> <input type="submit" value="Sign up" id="btn1" onclick="signup()"></div>
+                <div id="btn"> <input type="submit" value="Sign up" id="signup"></div>
+            </div></form>
         </div>
     </div>
 </body>
 </html>
-<script src="login.js"></script>
+<script src="sign.js"></script>
 <script src="https://use.fontawesome.com/4e90390159.js"></script>
